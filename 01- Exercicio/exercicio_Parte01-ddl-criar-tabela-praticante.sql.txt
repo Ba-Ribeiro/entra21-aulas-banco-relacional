@@ -1,0 +1,29 @@
+-- o entra21 precisa registrar os cursos ofertados e o detalhe da ementa
+--para salvar esses dados é necessario um BD robusto como o SqLite
+
+
+-- Crie um tabela com as informações necessárias que representam um curso , como nome, qtdAulas, valor
+
+
+-- insira 10 registros
+
+
+--liste todos
+--liste todos que forem caros >500
+--liste todos com mais de 10 aulas
+
+
+-- atualize o valor dos registros caros para ficarem o dobro mais caro
+
+
+-- delete os cursos baratos
+
+
+--liste tudo novamente
+
+CREATE TABLE curso ( ----uma tabela com as informações necessárias que representam um curso , como nome, qtdAulas, valor
+    name      TEXT    PRIMARY KEY
+                      NOT NULL,
+    qtdaAulas INTEGER NOT NULL,
+    valor     INTEGER NOT NULL
+);

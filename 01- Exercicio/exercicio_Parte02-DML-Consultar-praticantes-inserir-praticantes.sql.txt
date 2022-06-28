@@ -1,0 +1,33 @@
+select * from curso;
+
+
+---- insira 10 registros
+insert into curso(name,qtdaAulas,valor)
+values("JavaScript",25,300);
+
+insert into curso(name,qtdaAulas,valor)
+values("TypeScript",30,450);
+
+insert into curso(name,qtdaAulas,valor)
+values("Angular",28,500);
+
+insert into curso(name,qtdaAulas,valor)
+values("Python",15,200);
+
+insert into curso(name,qtdaAulas,valor)
+values("UX UI",10,300);
+
+insert into curso(name,qtdaAulas,valor)
+values("CSS",10,150);
+
+insert into curso(name,qtdaAulas,valor)
+values("C#",30,500);
+
+insert into curso(name,qtdaAulas,valor)
+values("PHP",10,180);
+
+insert into curso(name,qtdaAulas,valor)
+values("Informatica",28,400);
+
+insert into curso(name,qtdaAulas,valor)
+values("Excel",10,300);

@@ -1,0 +1,7 @@
+select * from curso;
+
+-- atualize o valor dos registros caros para ficarem o dobro mais caro
+UPDATE curso
+SET valor = valor*2
+where 
+valor > 300.00;
